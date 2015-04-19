@@ -35,3 +35,9 @@ Example route:
  Structure of route :                                                                                                        
  route[0] = { 1 , 26 , 41 , 5 , 38 }                                                                                         
  A vehicle starts route from depot then firstly go node 1 then 26 then 41 then 5 then 38 at the end from 38 it comes back to depot.So route[0] means 0 -> 1 -> 26 -> 41 -> 5 -> 38 -> 0
+ 
+ You shouls define maximum X value of the coordinates and maximum Y values in the coordinates to fit coordinates and routes to plane.
+ 
+ In the MainPanel.java file :
+ private int MX = 70; // Maximum X value in the coordinates                                                                  
+ private int MY = 70; // Maximum Y value in the coordinate
