@@ -41,3 +41,9 @@ Example route:
  In the MainPanel.java file :
  private int MX = 70; // Maximum X value in the coordinates                                                                  
  private int MY = 70; // Maximum Y value in the coordinate
+ 
+ Screenshots:
+ 
+![](https://raw.githubusercontent.com/AlperenTalaslioglu/Route-GUI-Drawer/master/SS1.png)
+![](https://raw.githubusercontent.com/AlperenTalaslioglu/Route-GUI-Drawer/master/SS2.png)
+
