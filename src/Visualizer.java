@@ -39,18 +39,6 @@ public class Visualizer {
 		route3.add(8);
 		route3.add(40);		
 		routes[2] = route3;
-		
-		/*
-		 * Structure of route :
-		 * 
-		 * route[0] = { 1 , 26 , 41 , 5 , 38 }
-		 * A vehicle starts route from depot then
-		 * firstly go node 1 then 26 then 41 then 5 then 38 
-		 * at the end from 38 it comes back to depot. 
-		 * 
-		 * So route[0] means 0 -> 1 -> 26 -> 41 -> 5 -> 38 -> 0
-		 * 
-		 */
 			
 		//Draw GUI
 		new MainFrame(routes, coordinates);		
