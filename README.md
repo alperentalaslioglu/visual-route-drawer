@@ -33,7 +33,7 @@ Example route:
 		routes[1] = route2;
 
  Structure of route :                                                                                                        
- route[0] = { 1 , 26 , 41 , 5 , 38 }                                                                                         
+ route[1] = { 1 , 26 , 41 , 5 , 38 }                                                                                         
  A vehicle starts route from depot then firstly go node 1 then 26 then 41 then 5 then 38 at the end from 38 it comes back to depot.So route[0] means 0 -> 1 -> 26 -> 41 -> 5 -> 38 -> 0
  
  You shouls define maximum X value of the coordinates and maximum Y values in the coordinates to fit coordinates and routes to plane.
